@@ -1,0 +1,18 @@
+layer=overlay
+width=250
+height=210
+location=center
+show=dmenu
+prompt=Power
+filter_rate=100
+allow_markup=true
+no_actions=true
+halign=fill
+orientation=vertical
+content_halign=fill
+columns=1
+hide_search=true
+# Key to prevent cache issues
+cache_file=/dev/null
+halign=fill
+content_halign=center

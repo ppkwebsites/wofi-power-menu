@@ -1,0 +1,40 @@
+@import "colors.css";
+
+window {
+    margin: 0px;
+    border: none;
+    /* Using your surface color #121318 with 70% opacity */
+    background-color: rgba(18, 19, 24, 0.3); 
+    border-radius:12px;
+}
+
+/* Completely hides the search bar */
+#input {
+    visibility: hidden;
+    opacity: 0;
+    margin: -10px;
+}
+
+#inner-box {
+    margin: 5px;
+    background-color: transparent;
+}
+
+#entry {
+    padding: 15px;
+    color: @on-surface;
+    border-radius: 8px;
+    transition: all 0.2s ease-in-out;
+}
+
+#entry:selected {
+    background-color: rgba(168, 145, 69, 0.2);
+    color: #8a846c !important;
+    outline: none;
+}
+
+#text {
+    font-family: "Sans Serif";
+    font-size: 20px;
+    margin: 0px;
+}
